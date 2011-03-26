@@ -1,0 +1,8 @@
+<root>
+    <file name="file1" program="cat /etc/fstab" owner="root" group="users" permissions="755" />
+    <file name="file2" program="date" owner="root" group="users" permissions="755" />
+    <dir name="dir1">
+        <file name="file3" program="uuidgen" owner="root" group="users" permissions="755" />
+    </dir>
+</root>
+        
